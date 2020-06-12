@@ -1,0 +1,30 @@
+{
+    "Vue Component-api": {
+        "scope": "vue",
+        "prefix": "vcapi",
+        "body": [
+            "<template>",
+            "    <div class='$1${TM_FILENAME}'>",
+            "",
+            "    </div>",
+            "</template>",
+            "",
+            "<script lang='ts'>",
+            "import { defineComponent, reactive, ref, onMounted } from '@vue/composition-api'",
+            "",
+            "export default defineComponent({",
+            "  name: '$1${TM_FILENAME}',",
+            "  setup(_, context) {",
+            "",
+            "    return {}",
+            "  },",
+            "  components: {},",
+            "})",
+            "</script>",
+            "<style lang='${2|less,scss,stylus|}' scoped>",
+            "",
+            "</style>"
+        ],
+        "description": "Vue Component API Base"
+    }
+}

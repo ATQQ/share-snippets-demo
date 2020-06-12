@@ -1,0 +1,30 @@
+{
+    "Author Info": {
+        "scope": "javascript,typescript,vue",
+        "prefix": "author",
+        "body": [
+            "// author: ${1:authorName}",
+            "// time: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+            "// ${2:introduce}"
+        ],
+        "description": "author"
+    },
+    "TODO Comment Line": {
+        "scope": "javascript,typescript,vue",
+        "prefix": "ctdl",
+        "body": "// TODO: DDL ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} $1introduce",
+        "description": "todo注释"
+    },
+    "TODO Comment Block": {
+        "scope": "javascript,typescript,vue",
+        "prefix": "ctdb",
+        "body": [
+            "/**",
+            " * TODO",
+            " * DDL ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+            " * $1introduce",
+            " */",
+        ],
+        "description": "todo注释"
+    },
+}

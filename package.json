@@ -1,0 +1,17 @@
+{
+  "name": "share-snippets-demo",
+  "version": "0.0.1",
+  "description": "VS Code Plugin Share Snippets Support demo",
+  "main": "transferFileToSnippetBody.js",
+  "repository": {
+    "url":"https://github.com/ATQQ/share-snippets-demo",
+    "directory": "/",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "sugar",
+  "license": "MIT"
+}
