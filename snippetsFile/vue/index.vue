@@ -1,15 +1,16 @@
 <template>
-    <div class='test.vue'>
-      <my-button type1='value3' type2='value3'></my-button>
-      <my-button type='primary' type2='primary'></my-button>
+    <div class='index.vue'>
+
     </div>
 </template>
 
 <script lang='ts'>
 import { defineComponent, reactive, ref, onMounted } from '@vue/composition-api'
+
 export default defineComponent({
-  name: 'test.vue',
+  name: 'index.vue',
   setup(_, context) {
+
     return {}
   },
   components: {},

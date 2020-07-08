@@ -1,8 +1,14 @@
 {
-    "Array Fill":{
+    "Array Fill": {
         "scope": "javascript,typescript,vue,jsx",
         "body": "let ${1:varName} = new Array(${2:count}).fill(0).map(v => {$3})",
         "prefix": "arrfill",
         "description": "new Array.fill"
+    },
+    "Print Text": {
+        "scope": "javascript,typescript,vue,react",
+        "prefix": "lg",
+        "body": "console.log($1)",
+        "description": "console.log"
     }
 }

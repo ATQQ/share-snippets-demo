@@ -1,6 +1,6 @@
 {
   "name": "share-snippets-demo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "VS Code Plugin Share Snippets Support demo",
   "main": "transferFileToSnippetBody.js",
   "repository": {
@@ -9,6 +9,7 @@
     "type": "git"
   },
   "scripts": {
+    "reset:orign":"npm config set registry https://registry.npmjs.org/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

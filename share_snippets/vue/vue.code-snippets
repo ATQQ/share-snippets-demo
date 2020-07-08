@@ -1,10 +1,10 @@
 {
     "Vue Component-api": {
         "scope": "vue",
-        "prefix": "vcapi",
+        "prefix": "v3template",
         "body": [
             "<template>",
-            "    <div class='$1${TM_FILENAME}'>",
+            "    <div class='${1:${TM_FILENAME}}'>",
             "",
             "    </div>",
             "</template>",
@@ -13,7 +13,7 @@
             "import { defineComponent, reactive, ref, onMounted } from '@vue/composition-api'",
             "",
             "export default defineComponent({",
-            "  name: '$1${TM_FILENAME}',",
+            "  name: '${1:${TM_FILENAME}}',",
             "  setup(_, context) {",
             "",
             "    return {}",
@@ -25,6 +25,6 @@
             "",
             "</style>"
         ],
-        "description": "Vue Component API Base"
+        "description": "Vue3 Component API Base"
     }
 }

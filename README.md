@@ -12,6 +12,9 @@ VS Code插件[Share Snippets](https://marketplace.visualstudio.com/items?itemNam
 ├── share_snippets
 │   ├── comment                     # 注释相关
 │   │   └── comment.code-snippets
+│   ├── components                  # 组件相关
+│   │   ├── comonent.code-snippets
+│   │   └── myButton.share-snippets
 │   ├── js                          # js相关
 │   │   └── js.code-snippets
 │   └── vue                         # vue相关
