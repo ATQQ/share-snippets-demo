@@ -1,0 +1,22 @@
+{
+    "My Form": {
+        "scope": "vue",
+        "type": "tag",
+        "description": "My Form",
+        "name": "my-form",
+        "props": [
+            {
+                "key": "v-model",
+                "value": "formData",
+                "description": "vm description",
+                "required":"1"
+            },
+            {
+                "key": "ref",
+                "value": "myForm",
+                "description": "this.$refs.myForm",
+                "required":"1"
+            }
+        ]
+    }
+}

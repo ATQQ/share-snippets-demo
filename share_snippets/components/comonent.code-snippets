@@ -1,8 +1,0 @@
-{
-    "my button":{
-        "scope": "vue",
-        "prefix": "mybtn",
-        "body": "<my-button type='${1|primary,success,info|}' type2='${2|primary,success,info|}'></my-button>",
-        "description": "my diy button"
-    }
-}

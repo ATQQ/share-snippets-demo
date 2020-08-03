@@ -1,0 +1,69 @@
+{
+    "my input": {
+        "scope": "vue",
+        "type": "tag",
+        "description": "文本输入框 my-input",
+        "name": "my-input",
+        "self_closing":true,
+        "props": [
+            {
+                "key": "label",
+                "value": "姓名",
+                "description": "label名称",
+                "required":true
+            },
+            {
+                "key":"labelWidth",
+                "value":"120",
+                "bind":true,
+                "description": "label宽度",
+                "required":true
+            },
+            {
+                "key":"placeholder",
+                "value":"请输入名称",
+                "description":"提示内容",
+                "required":true
+            },
+            {
+                "key":"size",
+                "description":"大小",
+                "value":"small,large"
+            },
+            {
+                "key":"disabled",
+                "description":"禁用状态",
+                "bind":true,
+                "value":"true,false"
+            },
+            {
+                "key":"readonly",
+                "description":"只读状态",
+                "bind":true,
+                "value":"true,false"
+            },
+            {
+                "key":"helper",
+                "description":"辅助信息",
+                "value":"常驻辅助信息"
+            },
+            {
+                "key":"clearable",
+                "description":"可清空",
+                "hide_value": true,
+                "bind":true,
+                "value":"true"
+            },
+            {
+                "key":"type",
+                "value":"text,number,email",
+                "description":"输入框类型"
+            },
+            {
+                "key":"prefix-icon",
+                "description":"图标",
+                "value":"myicon myicon-home-o"
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "vue3 Composition Api Template": {
+        "type": "template",
+        "scope": "vue",
+        "description": "vue3 Composition Api Templatee",
+        "name": "vue3-temp",
+        "path":"./files/vue3-temp.vue"
+    },
+    "Composition Api": {
+        "type": "template",
+        "scope": "vue",
+        "description": "Composition Api",
+        "name": "compositionAPI",
+        "path":"./files/compositionAPI.js"
+    }
+}
