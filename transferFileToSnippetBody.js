@@ -7,7 +7,7 @@ function transferFileDataToSnippetBody(fileName) {
     let text = fs.readFileSync(path.resolve(__dirname, fileName), {
         encoding: 'utf-8'
     })
-    text = text.replace(/\"/g, "'").split('\n').map(v => `"${v}"`).join(",")
+    text = text.replace(/\"/g, "\\\"").split('\n').map(v => `"${v}"`).join(",")
     text = `[${text}]`
     fs.writeFileSync(path.resolve(__dirname, fileName + ".json"), text)
 }

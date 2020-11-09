@@ -1,7 +1,7 @@
 {
     "My Form": {
-        "scope": "vue",
-        "type": "tag",
+        "type": "component",
+        "language":"vue",
         "description": "My Form",
         "name": "my-form",
         "props": [

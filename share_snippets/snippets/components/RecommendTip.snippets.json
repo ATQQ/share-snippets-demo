@@ -1,0 +1,40 @@
+{
+    "snippet name": {
+        "type": "component",
+        "language":"react",
+        "description": "推荐组件",
+        "name": "RecommendTip",
+        "self_closing": true,
+        "props": [
+            {
+                "key": "text",
+                "value": "冲榜预测：xxxx",
+                "description": "提示内容",
+                "required": true
+            },{
+                "key": "showNav",
+                "value": "true,false",
+                "description": "是否展示跳转",
+                "bind":true,
+                "hide_value": true
+            },
+            {
+                "key": "navDesc",
+                "value": "下载物料",
+                "description": "跳转文案"
+            },
+            {
+                "key": "handleNavigate",
+                "value": "() => alert('success')",
+                "description": "跳转回调",
+                "bind":true
+            },
+            {
+                "key": "icon",
+                "value": "iconUrl",
+                "description": "左侧图标地址",
+                "bind":true
+            }
+        ]
+    }
+}

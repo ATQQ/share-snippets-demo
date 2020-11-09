@@ -1,16 +1,15 @@
 <template>
-    <div class='index.vue'>
-      <my-form v-model='formData' ref='myForm'>
-        <my-input label='姓名' :labelWidth='120' placeholder='请输入名称' helper='常驻辅助信息' type='email' :readonly='true' clearable />
-      </my-form>
+    <div class='index'>
+      <my-input type='text' clearable :disabled='false' size='small' :labelWidth='120' placeholder='请输入名称' />
     </div>
 </template>
 
 <script lang='ts'>
-import { defineComponent, reactive, ref, onMounted } from '@vue/composition-api'
+import { defineComponent, reactive, ref, onMounted, computed } from '@vue/composition-api'
 export default defineComponent({
-  name: 'index.vue',
+  name: 'index',
   setup(_, context) {
+    console.log()
     return {}
   },
   components: {},

@@ -1,6 +1,6 @@
 {
   "name": "share-snippets-demo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "VS Code Plugin Share Snippets Support demo",
   "main": "transferFileToSnippetBody.js",
   "repository": {
